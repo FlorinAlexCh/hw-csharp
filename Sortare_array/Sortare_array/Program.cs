@@ -29,7 +29,7 @@ namespace Sortare_array
             }
             else
             {
-                Console.WriteLine("The number entered wasn't 1 or 2, your loss");
+                Console.WriteLine("Numarul introdus nu e nici 1 nici 2, pierderea ta");
             }
         }
     }
