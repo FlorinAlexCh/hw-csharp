@@ -4,7 +4,7 @@ namespace Fibonacci
 {
     class Program
     {
-        public static int Fibonacci(int n)
+        private static int Fibonacci(int n)
         {
             int a = 0;
             int b = 1;
