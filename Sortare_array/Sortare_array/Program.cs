@@ -7,7 +7,13 @@ namespace Sortare_array
     {
         static void Main(string[] args)
         {
-            int[] array = new int[] { 4, 6, 8, 34, 7 };
+            //int[] array = new int[] { 4, 6, 8, 34, 7 };
+            int[] array = new int[5];
+            for (int i = 0; i < array.Length; i++)
+            {
+                Console.WriteLine("Please write a number");
+                 array[i] = Convert.ToInt32(Console.ReadLine());
+            }
             Console.WriteLine("Scrie 1 pentru sortare ascendenta a array-ului sau 2 pentru sortare descendenta");
             var input = Console.ReadLine();
             int input1 = Int32.Parse(input);
