@@ -11,11 +11,13 @@ namespace RecursiveSum
         public static int CalculateSum(int[] array, int n)
         {
             if (n <= 0 || n > array.Length)
+            {
                 return 0;
+            }
             else
+            {
                 return CalculateSum(array, n - 1) + array[n - 1];
-            
-
+            }
         }
     }
 }
